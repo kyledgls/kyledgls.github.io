@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+section, .sidebar {
+    color: #fdffff;
+    font-size: 1.2em;
+}
+
+section div, .wrapper div {
+    padding 20px;
+}
+
+header, .zen-resources {
+    padding: 20px;
+    background-color: #f4970a;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.summary, .design-archives {
+    background: #b72135;
+
+}
+
+.preamble, .design-selection {
+    background: #d7263d;
+
+}
+
+a {
+    color: #f8333c;
+    text-decoration: none;
+}
+
+.main {
+    width: 75%;
+    margin: 40px auto;
+    border: solid #ff7733;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
