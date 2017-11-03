@@ -85,3 +85,9 @@ nav li {
     padding: 40px 40px;
 }
 
+.links {
+    background: #d17b0f;
+    padding: 10px;
+    box-shadow: 5px 5px 3px #000;
+    justify-content: space-around;
+}
