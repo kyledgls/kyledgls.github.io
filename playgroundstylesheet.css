@@ -1,0 +1,64 @@
+.btn {
+	font-size:20px;
+	background-color:#fff;
+	padding:20px;
+	color:#333;
+	border-radius: 20px;
+}
+
+.wrapper {
+	height:50vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	min-height:250px;
+	flex-direction:column;
+	background:#00A5CF;
+	border:solid 0.5px;
+}
+
+.gif1 {
+	position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
+
+
+.pumkins {
+	position: absolute;
+}
+
+.kellywise {
+	position: relative;
+}
+
+.evilboy {
+	position: relative;
+}
+
+.dirtnasty {
+	position: relative;
+}
+
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.btn-8Wrapper {
+	background-color: #8BC34A;
+	color: #8BC34A;
+	perspective: 150px;
+}
+.btn-8Wrapper .btn {
+	width: 20%;
+	padding: 5%;
+	transform: rotateX(25deg);
+	transition: 0.5s;
+	box-shadow:0px 8px 10px 0px rgba(0, 0, 0, 0.3), inset 0px 4px 1px 1px white, inset 0px -3px 1px 1px rgba(204, 198, 197, 0.5);
+}
+.btn-8Wrapper .btn:hover {
+	transform: rotateX(0);
+	box-sahdow: 0px 3px 10px 0px rgba(0,0,0,0.3), inset 0px 4px 1px 1px white, inset -px -3px 1px 1px rgba(204, 198, 197, 0.5);
+}

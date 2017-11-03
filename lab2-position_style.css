@@ -12,13 +12,14 @@ div div {
     left: 25px;
     bottom: 15%;
     right: 0;
-
-
 }
 
 nav {
 	border-bottom:solid;
 	background:#333;
+	position: fixed;
+    top: 0;
+    left: 0;
 
 }
 
@@ -50,6 +51,7 @@ ul {
 
 ul li:hover {
 	color: #465C69;
+}
 
 
 img {
@@ -59,7 +61,7 @@ img {
 
 h1 {
     position: absolute;
-    top: 0;
+    top: 10%;
     bottom: 0;
-    right: 25px;
+    right: 50%;
 }
