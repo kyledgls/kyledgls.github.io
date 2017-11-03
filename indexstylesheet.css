@@ -108,3 +108,26 @@ nav li {
     padding: 20px 20px;
     box-shadow: 5px 5px 3px #fbf364;
 }
+p {
+    width: 50%;
+
+}
+
+
+main {
+    display:flex;
+
+}
+
+main section {
+    flex: 1;
+}
+
+.flex-container {
+    flex: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #4126a6;
+
+}
