@@ -1,64 +1,87 @@
-.btn {
-	font-size:20px;
-	background-color:#fff;
-	padding:20px;
-	color:#333;
-	border-radius: 20px;
+@import url('https://fonts.googleapis.com/css?family=Hind');
+
+body {
+	background-color: #d17b0f;
+	margin: 0;
+	font-family: 'Hind', sans-serif;
 }
 
-.wrapper {
-	height:50vh;
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	min-height:250px;
-	flex-direction:column;
-	background:#00A5CF;
-	border:solid 0.5px;
+.menu {
+	background-color: #E8D33F;
 }
 
-.gif1 {
-	position: fixed;
-    bottom: 25px;
-    right: 25px;
+a, p {
+	color: #b7f0ad;
+	text-decoration: none;
 }
 
-
-.pumkins {
-	position: absolute;
+li {
+	list-style: none;
+	margin: 0 0 0 1em;
+	padding: 0 1em;
 }
 
-.kellywise {
-	position: relative;
+p {
+	padding: 0 1em;
 }
 
-.evilboy {
-	position: relative;
+.icon {
+	padding: 0 1em;
 }
 
-.dirtnasty {
-	position: relative;
+.topnav {
+    flex-direction: row;
 }
 
+.icon {
+    display: none;
+}
 
-section {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
+nav {
+    display: flex;
+    justify-content: space-between;
+
+
 }
-.btn-8Wrapper {
-	background-color: #8BC34A;
-	color: #8BC34A;
-	perspective: 150px;
+ul {
+    display: flex;
 }
-.btn-8Wrapper .btn {
-	width: 20%;
-	padding: 5%;
-	transform: rotateX(25deg);
-	transition: 0.5s;
-	box-shadow:0px 8px 10px 0px rgba(0, 0, 0, 0.3), inset 0px 4px 1px 1px white, inset 0px -3px 1px 1px rgba(204, 198, 197, 0.5);
+
+@media screen and (max-width: 500px) {
+    .icon {
+        display: inline-block;
+
+    }
+
+nav {
+    flex-direction: column;
 }
-.btn-8Wrapper .btn:hover {
-	transform: rotateX(0);
-	box-sahdow: 0px 3px 10px 0px rgba(0,0,0,0.3), inset 0px 4px 1px 1px white, inset -px -3px 1px 1px rgba(204, 198, 197, 0.5);
+nav ul {
+    flex-direction: column;
 }
+
+nav li {
+    margin:20px 0px;
+}
+
+    .topnav {
+        display: none;
+    }
+    .menu > div:first-child {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+.navLink {
+    background: #d17b0f;
+    padding: 10px;
+    box-shadow: 5px 5px 3px #000;
+
+
+}
+.navLink:hover {
+    padding: 40px 40px;
+}
+
